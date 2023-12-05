@@ -20,11 +20,11 @@ const WelcomeScreen = () => {
     },100);
 
     setTimeout(() => {
-      ringPadding2.value = withSpring(ringPadding2.value+hp(5.5))
+      ringPadding2.value = withSpring(ringPadding2.value+hp(5.5))  
     },300);
 
     setTimeout(() => {
-      navigation.navigate("Home")
+      navigation.navigate("Bluetooth")
     },2500);
 
   },[])

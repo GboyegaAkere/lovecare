@@ -7,6 +7,8 @@ import { FontAwesome } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native'
 import WelcomeScreen from './WelcomeScreen';
+import { Entypo } from '@expo/vector-icons';
+import Menu from './Menu';
 
 
 const HomeScreen = () => {
@@ -23,20 +25,7 @@ const HomeScreen = () => {
         
       {/* Bottom navigation */}
       <WelcomeScreen/>
-      <View className ='w-full bg-pink-500 p-4 flex-row justify-around absolute bottom-0'>
-        <TouchableOpacity onPress={() => handleIconPress('Icon 1')} className="items-center">
-         <AntDesign name="home" size={34} color="black" />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => handleIconPress('Icon 1')} className="items-center">
-         <Ionicons name="chatbubble-ellipses-outline" size={34} color="pink" />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => handleIconPress('Icon 2')} className="items-center">
-         <MaterialCommunityIcons name="bluetooth" size={34} color="blue" />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => navigation.navigate('Comments')}  className="items-center">
-         <FontAwesome name="comments" size={34} color="yellow" />
-        </TouchableOpacity>
-      </View>
+      <Menu/>
     </View>
   );
 };
