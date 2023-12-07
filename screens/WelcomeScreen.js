@@ -24,7 +24,7 @@ const WelcomeScreen = () => {
     },300);
 
     setTimeout(() => {
-      navigation.navigate("Bluetooth")
+      navigation.navigate("Connect")
     },2500);
 
   },[])

@@ -27,7 +27,7 @@ const Menu = () => {
         {/* <TouchableOpacity onPress={() => navigation.navigate('Chat')} className="items-center">
          <Ionicons name="chatbubble-ellipses-outline" size={34} color="pink" />
         </TouchableOpacity> */}
-        <TouchableOpacity onPress={() => navigation.navigate('Bluetooth')}  className="items-center">
+        <TouchableOpacity onPress={() => navigation.navigate('Connect')}  className="items-center">
          <MaterialCommunityIcons name="bluetooth" size={34} color="blue" />
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate('News')}  className="items-center">
