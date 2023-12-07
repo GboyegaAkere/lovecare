@@ -47,14 +47,14 @@ const Connect = () => {
       </View>
        
        <View className="flex flex-row items-center justify-center gap-2 mt-5 p-2 ">
-            <View className="w-[160px] h-[100px] rounded-lg bg-pink-400 mt-10">
+            <TouchableOpacity className="w-[160px] h-[100px] rounded-lg bg-pink-400 mt-10">
                 <Text>ライブストリーミングはこちら</Text>
-            </View>
+            </TouchableOpacity>
 
-            <View className="w-[160px] h-[100px] rounded-lg bg-pink-400 mt-10">
+            <TouchableOpacity className="w-[160px] h-[100px] rounded-lg bg-pink-400 mt-10">
              <Text className="w-[160px] h-[50px]">Bluetooth</Text>
              <Text>が接続中です b</Text>
-            </View>
+            </TouchableOpacity>
        </View>
     </ScrollView>
   )
