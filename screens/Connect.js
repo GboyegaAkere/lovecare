@@ -6,6 +6,7 @@ import { AntDesign } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
 import { FontAwesome } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 
 
@@ -27,7 +28,7 @@ const Connect = () => {
             <Text>設定</Text>
         </TouchableOpacity>
         <TouchableOpacity className="flex flex-col items-center gap-1">
-            <Feather name="stop-circle" size={34} color="black" />
+            <MaterialCommunityIcons name="restart" size={24} color="black" />
             <Text>止める</Text>
         </TouchableOpacity>
       </View>
@@ -35,7 +36,7 @@ const Connect = () => {
       <View className="w-[300px] h-[200px] rounded-lg bg-white mx-auto mt-10">
         <View className="flex flex-row justify-center pt-5 items-center gap-1">
             <AntDesign name="videocamera" size={34} color="black" />
-            <Text>ライブ</Text>
+            <Text>始まる</Text>
         </View>
       </View>
 
