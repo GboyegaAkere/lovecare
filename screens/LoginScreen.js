@@ -5,7 +5,7 @@ import { useNavigation } from '@react-navigation/native'
 const LoginScreen = () => {
   const navigation = useNavigation()
     return (
-        <View className="flex-1 justify-center items-center bg-pink-500">
+        <View className="flex-1 justify-center items-center bg-black">
           <View className="w-4/5">
             <TextInput
               className="bg-white p-3 rounded-md mb-4"
@@ -16,8 +16,8 @@ const LoginScreen = () => {
               placeholder="パスワード"
               secureTextEntry={true}
             />
-            <Button title="ログイン" onPress={() => navigation.navigate('Home')} />
-            <Text className="text-white mt-4">パスワードをお忘れですか？</Text>
+            <Button title="ログイン" onPress={() => navigation.navigate('Home')} className="" />
+            <Text  className="text-white mt-4 mx-auto font-bold text-xl">パスワードをお忘れですか？</Text>
           </View>
         </View>
     )

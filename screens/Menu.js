@@ -20,18 +20,18 @@ const Menu = () => {
 
   return (
     <View className=' justify-center items-center '>
-      <View className ='w-full bg-pink-500 p-4 flex-row justify-around absolute bottom-0'>
+      <View className ='w-full bg-black border-gray-300 shadow-xl border-t p-4 flex-row justify-around absolute bottom-0'>
         <TouchableOpacity onPress={() => navigation.navigate('Home')} className="items-center">
-         <AntDesign name="home" size={34} color="black" />
+         <AntDesign name="home" size={36} color="white" />
         </TouchableOpacity>
         {/* <TouchableOpacity onPress={() => navigation.navigate('Chat')} className="items-center">
          <Ionicons name="chatbubble-ellipses-outline" size={34} color="pink" />
         </TouchableOpacity> */}
-        <TouchableOpacity onPress={() => navigation.navigate('Connect')}  className="items-center">
-         <MaterialCommunityIcons name="bluetooth" size={34} color="blue" />
+        <TouchableOpacity onPress={() => navigation.navigate('Connected')}  className="items-center">
+         <MaterialCommunityIcons name="bluetooth" size={36} color="white" />
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate('News')}  className="items-center">
-         <Entypo name="news" size={34} color="white" />
+         <Entypo name="news" size={36} color="white" />
         </TouchableOpacity>
       </View>
     </View>

@@ -12,6 +12,7 @@ import NewsScreen from './screens/NewsScreen';
 import BluetoothScreen from './screens/BluetoothScreen';
 import ChatScreen from './screens/Chat';
 import Connect from './screens/Connect';
+import Connected from './Connected';
 
 const Stack = createNativeStackNavigator();
 
@@ -24,7 +25,8 @@ function AppNavigator() {
         <Stack.Screen name="Home" component={HomeSreen} options={{ headerShown: false }} />
         <Stack.Screen name="Comments" component={CommentsSection} options={{ headerShown: false }} />
         <Stack.Screen name="News" component={NewsScreen} options={{ headerShown: false }} />
-        <Stack.Screen name="Bluetooth" component={BluetoothScreen} options={{ headerShown: false }} />
+        {/* <Stack.Screen name="Bluetooth" component={BluetoothScreen} options={{ headerShown: false }} /> */}
+        <Stack.Screen name="Connected" component={Connected} options={{ headerShown: false }} />
         <Stack.Screen name="Chat" component={ChatScreen} options={{ headerShown: false }} />
         <Stack.Screen name="Connect" component={Connect} options={{ headerShown: false }} />
       </Stack.Navigator>

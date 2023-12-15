@@ -20,7 +20,7 @@ const HomeScreen = () => {
   };
 
   return (
-    <View className='flex-1 justify-center items-center bg-pink-900'>
+    <View className='flex-1 justify-center items-center bg-black'>
       {/* Your other content here */}
         
       {/* Bottom navigation */}

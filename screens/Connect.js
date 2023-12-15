@@ -27,8 +27,8 @@ const Connect = () => {
             <Feather name="settings" size={34} color="black" />
             <Text>設定</Text>
         </TouchableOpacity>
-        <TouchableOpacity className="flex flex-col items-center gap-1">
-            <MaterialCommunityIcons name="restart" size={24} color="black" />
+        <TouchableOpacity onPress={() => navigation.navigate('Connected')}  className="flex flex-col items-center gap-1">
+            <MaterialCommunityIcons name="bluetooth" size={36} color="black" />
             <Text>止める</Text>
         </TouchableOpacity>
       </View>

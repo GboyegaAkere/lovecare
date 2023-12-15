@@ -22,7 +22,7 @@ const OnBoarding = () => {
               // DoneButtonComponent={donebutton}
                 pages={[
                 {
-                  backgroundColor: '#FF00FF',
+                  backgroundColor: '#000000',
                   image:(
                     <View>
                      <Image className="h-82 w-82"/>
@@ -33,7 +33,7 @@ const OnBoarding = () => {
                 },
 
                 {
-                  backgroundColor: '#FF10F0',
+                  backgroundColor: '#1A2421',
                   image:(
                     <View>
                      <Image className="h-82 w-82"/>
@@ -44,7 +44,7 @@ const OnBoarding = () => {
                 },
 
                 {
-                  backgroundColor: '#FF69B4',
+                  backgroundColor: '#1B1B1B',
                   image:(
                     <View>
                       <Image className="h-82 w-82"/>

@@ -32,8 +32,8 @@ const WelcomeScreen = () => {
   
   return (
     <View className="flex-1 justify-center items-center space-y-10">
-        <Animated.View className="rounded-full bg-pink-400" style={{padding:ringPadding1}}>
-          <Animated.View className="rounded-full bg-pink-300" style={{padding:ringPadding2}}>
+        <Animated.View className="rounded-full bg-gray-400" style={{padding:ringPadding1}}>
+          <Animated.View className="rounded-full bg-gray-300" style={{padding:ringPadding2}}>
            <Image source={require("../assets/images/toy1.jpeg")} style={{width:hp(20), height:hp(20)}} className="rounded-full "/>
           </Animated.View>
         </Animated.View>
